@@ -27,17 +27,18 @@
 - Read through the source code
 - Open the browser and navigate to http://localhost:3000/
 - Open you the developer console.
-- Set up is complete when you notice the console.log statement "CHILD RE-RENDER" each time you click the **ADD* button
+- Set up is complete when you notice the console.log statement "CHILD RE-RENDER" each time you click the \*_ADD_ button
 
 ### Practice Background
 
 When the button is clicked on the parent component <App/>, then the child component <ChildComponent/> is re-rendered by default even if no props are passed. This practice exercise is meant to demonstrate how `useMemo()` and `useCallback()` can help optimize React applications.
 
 ### Practice Instructions
+
 - Answer the short answer questions here in the README.md.
 - Follow the instructions to update the code base in <App/>, <ChildComponent/> and <DocumentTitle/>.
 
-#### PART ONE: useMemo() - Practice Steps & Short Answer
+### Practice PART ONE: useMemo() - Practice Steps & Short Answer
 
 I. Within `src/App.js`:
 
@@ -61,7 +62,7 @@ III. Within `src/App.js`:
 
 ##### SHORT ANSWER 3: How did `useMemo()` affect this web application?
 
-#### PART TWO: useCallback() - Practice Steps & Short Answer
+### Practice PART TWO: useCallback() - Practice Steps & Short Answer
 
 I. Within `src/App.js`:
 
@@ -85,7 +86,7 @@ III. Return to `src/App.js`:
 - Refer to the documentation for `useCallback()`. Refactor `fetchData` in order to create memoized version of this callback.
 - Refresh your browser and observe the developer console.
 
-#### PART THREE: custom hooks - Practice Steps & Short Answer
+### Practice PART THREE: custom hooks - Practice Steps & Short Answer
 
 I. Within `src/App.js`:
 

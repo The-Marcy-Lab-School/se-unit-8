@@ -1,15 +1,16 @@
-import React, { useEffect } from "react";
+import React from 'react';
 
-const ChildComponent = props => {
-  console.log("CHILD RE_RENDER");
-  useEffect(() => {
-    props.fetchData("users");
-  }, [props]);
-  return (
-    <div>
-      <h2>{props.title}</h2> <p>Child Component!</p>
-    </div>
-  );
+const ChildComponent = () => {
+	console.log('CHILD RE_RENDER');
+
+	return (
+		<div>
+			{/**Render the title prop here */}
+			<p>Child Component!</p>
+			<p>Static Array</p>
+			{/**Render the array prop here */}
+		</div>
+	);
 };
 
 export default React.memo(ChildComponent);

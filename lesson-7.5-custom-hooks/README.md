@@ -1,3 +1,7 @@
+# Lesson 8.5 useMemo, useCallback, Custom Hooks
+
+## Outline
+
 ### Key Terms
 
 - useMemo()
@@ -70,7 +74,7 @@ II. Within `src/components/ChidComponent.js`
 
 ##### SHORT ANSWER 4: Describe what you notice in the developer console. Share your opinion on whether this is good or bad for the web application?
 
-III.
+III. Return to `src/App.js`:
 
 ##### SHORT ANSWER 5: How could `useCallback()` optimize a web application?
 

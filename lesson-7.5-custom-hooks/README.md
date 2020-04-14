@@ -27,11 +27,15 @@
 - Read through the source code
 - Open the browser and navigate to http://localhost:3000/
 - Open you the developer console.
-- Set up is complete when you notice the console.log statement "CHILD RE*RENDER" each time you click the \_ADD* button
+- Set up is complete when you notice the console.log statement "CHILD RE-RENDER" each time you click the **ADD* button
 
-#### Background
+### Practice Background
 
 When the button is clicked on the parent component <App/>, then the child component <ChildComponent/> is re-rendered by default even if no props are passed. This practice exercise is meant to demonstrate how `useMemo()` and `useCallback()` can help optimize React applications.
+
+### Practice Instructions
+- Answer the short answer questions here in the README.md.
+- Follow the instructions to update the code base in <App/>, <ChildComponent/> and <DocumentTitle/>.
 
 #### PART ONE: useMemo() - Practice Steps & Short Answer
 

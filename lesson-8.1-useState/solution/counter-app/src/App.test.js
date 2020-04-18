@@ -1,16 +1,22 @@
 import React from 'react';
 import { fireEvent, render } from '@testing-library/react';
 import App from './App';
+import CounterMessage from './CounterMessage';
 
-test('Renders without crashing', () => {
+test('The app renders without crashing', () => {
 	const { getByText } = render(<App />);
 	const appName = getByText('Counter App');
 	expect(appName).toBeInTheDocument();
 });
 
-test('App loads with initial state of 0', () => {
+test('<App/> loads with initial state of 0', () => {
 	const { getByTestId } = render(<App />);
 	expect(getByTestId('counter')).toHaveTextContent('0');
+});
+
+test('<CounterMessage/> loads with initial value of 0', () => {
+	const { getByTestId } = render(<CounterMessage count={0} />);
+	expect(getByTestId('counter').textContent).toBe('0');
 });
 
 test('Increment button increases counter by 1', () => {

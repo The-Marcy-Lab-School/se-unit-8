@@ -14,11 +14,6 @@ test('<App/> loads with initial state of 0', () => {
 	expect(getByTestId('counter')).toHaveTextContent('0');
 });
 
-test('<CounterMessage/> loads with initial value of 0', () => {
-	const { getByTestId } = render(<CounterMessage count={0} />);
-	expect(getByTestId('counter').textContent).toBe('0');
-});
-
 test('Increment button increases counter by 1', () => {
 	const { getByTestId } = render(<App />);
 	const counterValue = getByTestId('counter');
@@ -33,4 +28,9 @@ test('Decrement button decreases counter by 1', () => {
 	const decrement = getByTestId('decrementButton');
 	fireEvent.click(decrement);
 	expect(counterValue).toHaveTextContent('-1');
+});
+
+test('<CounterMessage/> loads with the value from prop received from <App/>', () => {
+	const { getByTestId } = render(<CounterMessage count={0} />);
+	expect(getByTestId('counter').textContent).toBe('0');
 });

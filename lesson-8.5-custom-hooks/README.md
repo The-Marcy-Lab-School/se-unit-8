@@ -36,7 +36,7 @@ When the button is clicked on the parent component <App/>, then the child compon
 ### Practice Instructions
 
 - Answer the short answer questions here in the README.md.
-- Follow the instructions to update the code base in <App/>, <ChildComponent/> and <DocumentTitle/>.
+- Follow the instructions to update the code base in `<App/>`, `<ChildComponent/>` and `<DocumentTitle/>`.
 
 ### Practice PART ONE: useMemo() - Practice Steps & Short Answer
 

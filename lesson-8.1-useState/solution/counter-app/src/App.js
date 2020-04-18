@@ -11,7 +11,9 @@ function App() {
 			<h1>Counter App</h1>
 			<p data-testid="counter">{count}</p>
 			<button onClick={decrement}>-</button>
-			<button onClick={increment}>+</button>
+			<button data-testid="incrementButton" onClick={increment}>
+				+
+			</button>
 		</div>
 	);
 }

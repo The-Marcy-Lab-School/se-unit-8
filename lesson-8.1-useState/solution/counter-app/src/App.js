@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	let [count, setCount] = useState(0);
+
+	/** TODO: find other syntax or add comments;
+	 * Look into refactoring to use callback function
+	 * */
+	const decrement = () => setCount((count -= 1));
+	const increment = () => setCount((count += 1));
+
+	return (
+		<div className="App">
+			<h1>Counter App</h1>
+			<p>{count}</p>
+			<button onClick={decrement}>-</button>
+			<button onClick={increment}>+</button>
+		</div>
+	);
 }
 
 export default App;
+
+const rootElement = document.getElementById('root');
+ReactDOM.render(<App />, rootElement);

@@ -9,7 +9,7 @@ function App() {
 	return (
 		<div className="App">
 			<h1>Counter App</h1>
-			<p id="countvalue">{count}</p>
+			<p data-testid="counter">{count}</p>
 			<button onClick={decrement}>-</button>
 			<button onClick={increment}>+</button>
 		</div>

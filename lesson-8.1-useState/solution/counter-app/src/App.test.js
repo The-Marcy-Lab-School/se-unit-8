@@ -9,7 +9,6 @@ test('renders without crashing', () => {
 });
 
 test('App loads with initial state of 0', () => {
-	// const { getByText } = render(<App />);
-	// const initialState = getByText('0');
-	// expect(initialState).toBeInTheDocument();
+	const { getByTestId } = render(<App />);
+	expect(getByTestId('counter')).toHaveTextContent('0');
 });

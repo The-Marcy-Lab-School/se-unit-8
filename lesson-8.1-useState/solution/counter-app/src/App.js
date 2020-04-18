@@ -10,7 +10,9 @@ function App() {
 		<div className="App">
 			<h1>Counter App</h1>
 			<p data-testid="counter">{count}</p>
-			<button onClick={decrement}>-</button>
+			<button data-testid="decrementButton" onClick={decrement}>
+				-
+			</button>
 			<button data-testid="incrementButton" onClick={increment}>
 				+
 			</button>

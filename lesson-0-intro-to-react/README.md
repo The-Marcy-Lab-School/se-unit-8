@@ -29,7 +29,7 @@
 + **Documentation:** Install and Get Familiar w/ React DevTools
   + [Introducing the New React DevTools](https://reactjs.org/blog/2019/08/15/new-react-devtools.html)
   + [React DevTools Interactive Tutorial](https://react-devtools-tutorial.now.sh/)
-+ [Video: Virtual DOM Overview](https://www.youtube.com/watch?v=d7pyEDqBDeE)
++ **Video:** [Virtual DOM Overview](https://www.youtube.com/watch?v=d7pyEDqBDeE)
 
 ### Practice:
 

@@ -33,6 +33,6 @@
 - `npm install`
 - open two terminals
 - in the first terminal, run `npm start`
-- view the app in localhost:3000 (this should open automatically with `npm start`)
+- view the app in `localhost:3000` (this should open automatically with `npm start`)
 - in the second terminal, run `npm test`. Tests will run automatically when you update the <App/> component. But you can also ENTER `a` in order to manually re-run tests.
 - Follow the tests in `practice/counter-app/App.tests.js` in order to create a counter application.

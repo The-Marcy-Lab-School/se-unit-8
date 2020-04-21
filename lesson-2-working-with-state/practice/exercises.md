@@ -10,7 +10,7 @@
 
 4. Update your example above to use the `useReducer` hook instead of the `useState` hook. Our state should be an object with a key of `count` that points to our current count.
 
-5. Pretend that each time we change our count, we want to persist those results to an API. You can assume you have access to a function called `saveCount` that makes a post request to your server and returns a promise. For our purposes, assume that it always saves successfully. Use this function to u to save the count to our database before updating our state.
+5. Pretend that each time we change our count, we want to persist those results to an API. You can assume you have access to a function called `saveCount` that makes a post request to your server and returns a promise. For our purposes, assume that it always saves successfully. Use this mock function (below) to save the count to our database before updating our state.
 
 6. Now, let's prevent our user from clicking any buttons if we haven't updated the API yet.
 
@@ -31,11 +31,11 @@ function saveCount(newCount) {
 
 ```
 
-7. Build a simple ToDo list application using React. Your ToDo list does not need to have persistence. You should have the ability to:
+7. Build a simple ToDo list application using React. You should have the ability to:
 
   * Display a list of ToDos
   * Add a new item to the list
   * Remove an item from the list
   * Update an item in the list
 
-You may choose to add any other features if you like, and may also choose whether to use `useState` or `useReducer`
+You may choose to add any other features if you like, and may also choose whether to use `useState` or `useReducer`. For extra credit, build persistence into your app by using the [Local Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).

@@ -37,7 +37,7 @@ You will analyze the component structure of a legacy, class-based component duri
 
 2. Familiarize yourself with the app and file structure. Then open <ClassBasedForm/> within the components directory.
 
-3. Answer the [short answer questions](/practice/short-response.md) about class based components before moving on to step 4.
+3. Answer the [short answer questions](practice/short-response.md) about class based components before moving on to step 4.
 
 4. Create a new component named "FunctionBasedForm" and place it into the components directory.
 

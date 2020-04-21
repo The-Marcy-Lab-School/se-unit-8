@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container } from 'reactstrap';
-// import ClassBasedForm from './components/ClassBasedForm'
+//import ClassBasedForm from './components/ClassBasedForm'
 import FunctionBasedForm from './components/FunctionBasedForm';
 import Logo from './assets/marcy_lab_log.jpg';
 import './App.css';

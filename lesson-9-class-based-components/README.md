@@ -20,7 +20,7 @@
 
 1. Internalize how and why React moved from functional components (pre-hooks) to class components by reading about [State and Lifecycle Methods](https://reactjs.org/docs/state-and-lifecycle.html).
 
-2. Refer to the documentation for [React Components](https://reactjs.org/docs/react-component.html), [constructor functions](https://reactjs.org/docs/react-component.html#constructor), [componentDidMount() lifecycle method](https://reactjs.org/docs/react-component.html#componentdidmount), [componentWillUpdate()](https://reactjs.org/docs/react-component.html#unsafe_componentwillupdate), and [setState()](https://reactjs.org/docs/react-component.html#setstate)
+2. Refer to the documentation for [React Components](https://reactjs.org/docs/react-component.html), [constructor functions](https://reactjs.org/docs/react-component.html#constructor), [componentDidMount() lifecycle method](https://reactjs.org/docs/react-component.html#componentdidmount), [componentWillUpdate()](https://reactjs.org/docs/react-component.html#unsafe_componentwillupdate), and [setState()](https://reactjs.org/docs/react-component.html#setstate).
 
 ### Practice Overview
 

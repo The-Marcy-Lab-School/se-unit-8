@@ -8,7 +8,7 @@
 + reducer
 
 ### Essential Questions:
-
++ What is the difference between the `useState` and `useReducer` hooks? When might you want to use one over the other?
 + Why is state important in web applications?
 + What tools does React give us for handling state?
 

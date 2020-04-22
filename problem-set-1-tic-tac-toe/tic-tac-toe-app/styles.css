@@ -1,0 +1,32 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+.game {
+  width: 70%
+}
+
+.winner {
+  text-align: center;
+}
+.board {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0;
+}
+
+.square {
+  height: 27vh;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 500%;
+}

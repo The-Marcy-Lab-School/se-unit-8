@@ -36,3 +36,7 @@
 - view the app in `localhost:3000` (this should open automatically with `npm start`)
 - in the second terminal, run `npm test`. Tests will run automatically when you update the <App/> component. But you can also ENTER `a` in order to manually re-run tests.
 - Follow the tests in `practice/counter-app/App.tests.js` in order to create a counter application.
+
+##
+<sup>[Lecture Recording](https://zoom.us/rec/share/u5F3K5jV1VFOAZ3rsmXdQYowB9u_X6a80SAc-ftczE9wdiQor_uPovz5u9RnJ4tb)</sup>
+

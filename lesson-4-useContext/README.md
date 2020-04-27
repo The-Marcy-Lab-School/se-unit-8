@@ -55,3 +55,7 @@
 
 - Within `About.js`, access the context values returned from the `UserContext` context.
 - Conditionally render a <div/> with an "About" heading and a table of the user's information (user id, user name, and email) when user data is present. Otherwise, render a helpful note telling the user to login.
+
+## Lecture Recording
+[04.47.20 Lecture Recording](https://us02web.zoom.us/rec/share/-MplIoHv9VtLc5Hp5lP_Za05OaHkeaa80ykf-fFbn81LUhCRRIei831aDe_2NeQ)
+

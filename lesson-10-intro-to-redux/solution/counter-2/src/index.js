@@ -7,9 +7,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore } from 'redux';
 import Counter from './components/Counter';
-import counter from './reducers';
+import counterReducer from './reducers/counterReducer';
 
-const store = createStore(counter);
+const store = createStore(counterReducer);
 const rootEl = document.getElementById('root');
 
 const render = () =>

@@ -31,12 +31,20 @@
 
 ### Practice:
 
-After completing the learning assignments, answer the [short answer questions](practice/short_response.md).
+I. Write answers the [short response questions](practice/short_response.md).
 
-Next create a new version of counter app using class components and incorporating redux to handle state.
+II. Next create a new version of counter app using class components and incorporating redux to handle state. Here is some guidance
 
-- cd `counter-2`.
-- Run `npm install` and `npm start` in one termnial.
-- Open a second terminal and run `npm test`.
+- cd `practice/counter-2`.
+- Run `npm install` in one termnial.
+- Open a second terminal and run `npm test`. If tests do not run automatically then press **Enter** to trigger a test run of the current test suite or **a** to trigger a run of all tests.
+- Here is a recommend order to start coding out components:
 
-Follow the tests in order to successful create this application.
+  1. `src/index.js` - set up the store
+  2. `src/reducers/index.js` - set up the reducer
+  3. `src/index.js` - import reducers
+  4. `src/components/Counter.js` - create the counter component
+
+- Follow the tests within `src/components/Counter.test.js` and `src/reducers/index.test.js` in order to successful create this application.
+
+- Once all tests are passing, run `npm start` from a another terminal. You can view your app in localhost:3000 and (optionally) use the the Redux developer tools.

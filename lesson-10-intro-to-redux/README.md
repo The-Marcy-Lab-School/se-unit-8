@@ -1,12 +1,14 @@
 # Lesson 8.10 - Introduction to Redux
 
+## Lesson Overview
+
 ### Key Terms:
 
 - Redux
 - immutability
-- actions
 - store
 - reducers
+- actions
 - `createStore()`
 - `combineReducers()`
 
@@ -26,4 +28,4 @@
 
 ### Practice:
 
-[Practice Exercises](./practice/exercises.md)
+[Practice Exercises](practice)

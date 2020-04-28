@@ -21,3 +21,6 @@
 ### Practice:
 
 [Practice Exercises](./practice/exercises.md)
+
+## Lecture Recordings
+[04.28.20 Lecture](https://us02web.zoom.us/rec/share/-9FxJezg7WZIcI3o2BHcHfQzH6LpX6a8hChKqPZZmEgvHCzutA_Dfxi-4kq15YN1)

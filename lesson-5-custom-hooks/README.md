@@ -97,3 +97,6 @@ II. Within `src/components/DocumentTitle.js`:
 
 - create a custom hook called `useDocumentTitle()` and invoke it by passing in the input `value`.
 - the custom hook must update your document title on the browser tab.
+
+## Lecture Recording
+[04.29.20 Lecture](https://us02web.zoom.us/rec/share/9edpN5vu6GBOc9KR9mvhGfA4BInZeaa82iRNrKJZnUv4MnHcaTy3JPp2R14wd-Mt)

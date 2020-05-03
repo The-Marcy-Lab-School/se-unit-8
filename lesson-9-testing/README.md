@@ -1,10 +1,12 @@
-# Lesson 8.11: Testing and TDD with React
+# Lesson 8.8: Testing and TDD with React
 
 ### Key Terms
 
 - Test Driven Development
 - TDD
-- Unit Test, Integration Test, End to End Test
+- Unit Test
+- Integration Test
+- End-to-End Test
 
 ### Essential Questions
 
@@ -27,4 +29,4 @@
 ### Practice
 
 - [Unit Test Practice](./exercises/fizzbuzz)
-- [React Testing Practice](./exercises/fizzbuzz)
+- [React Testing Practice](./exercises/counter-app)

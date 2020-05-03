@@ -1,4 +1,4 @@
-# Lesson 8.7 -  Client Side Routing with React Router
+# Lesson 8.6 -  Client Side Routing with React Router
 
 ## Key Terms
 

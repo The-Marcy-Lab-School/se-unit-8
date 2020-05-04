@@ -44,3 +44,7 @@ You will analyze the component structure of a legacy, class-based component duri
 5. Replace the imports in <App.js> so that <FunctionBasedForm/> is rendered on localhost rather than <ClassBasedForm/>.
 
 6. Code out the <FunctionBasedForm/> so that it maintains the same functionality as <ClassBasedForm/>, but using functional components and hooks rather than classes.
+
+## Lecture Recording
+[05.01.20 Lecture](https://us02web.zoom.us/rec/share/2clRMKriqFhIf8_u6gLPcZZ6IcP-X6a82nNP8vQEzR5-2xGu7vqi7pamL9ciy3Tm)
+

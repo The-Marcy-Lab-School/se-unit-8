@@ -30,3 +30,6 @@
 
 - [Unit Test Practice](./exercises/fizzbuzz)
 - [React Testing Practice](./exercises/counter-app)
+
+## Lecture Recording
+[05.05.20 Lecture](https://us02web.zoom.us/rec/share/uelZL7Cqrk9LaYXPz0_0Zo0PP5_pX6a8gSUWq_RfyRrZ3iXHYhzJBNiYGDONvj0c)

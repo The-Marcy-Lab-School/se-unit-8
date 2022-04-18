@@ -17,15 +17,17 @@
 
 ### Learning Assignments
 
+### Learning Assignments:
+
 - Learn about the React hook called `useState()`. Follow along with this [popular tutorial](https://www.youtube.com/watch?v=9xhKH43llhU), which is about 15 minutes long.
 
 - Here are descriptions about the differences between [state and props](https://github.com/uberVU/react-guide/blob/master/props-vs-state.md).
 
-- [React documentation on useState()](https://reactjs.org/docs/hooks-state.html)
-
-- [React documentation on props](https://reactjs.org/docs/components-and-props.html#function-and-class-components)
-
-- OPTIONAL: Read the introduction to the [React Testing Library](https://testing-library.com/docs/intro), which will is used to test your practice. You will not need to implement your own tests. Hopefully the documentation can give you an idea of what's happening behind the scenes.
++ **Documentation**: Review Official React Docs
+  + [React documentation on useState()](https://reactjs.org/docs/hooks-state.html)
+  + [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
+  + [Handling Events](https://reactjs.org/docs/handling-events.html)
+  + [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)
 
 ### Practice
 

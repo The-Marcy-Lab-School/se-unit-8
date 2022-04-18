@@ -25,7 +25,6 @@
   + [React without JSX](https://reactjs.org/docs/react-without-jsx.html)
   + [Rendering Elements](https://reactjs.org/docs/rendering-elements.html)
   + [Components and Props](https://reactjs.org/docs/components-and-props.html)
-  + [Handling Events](https://reactjs.org/docs/handling-events.html)
 + **Documentation:** Install and Get Familiar w/ React DevTools
   + [Introducing the New React DevTools](https://reactjs.org/blog/2019/08/15/new-react-devtools.html)
   + [React DevTools Interactive Tutorial](https://react-devtools-tutorial.now.sh/)

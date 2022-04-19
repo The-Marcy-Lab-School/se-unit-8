@@ -15,9 +15,9 @@
 - How do we use the `useState()` hook?
 - What are the rules and restrictions of use state?
 
-### Learning Assignments
 
 ### Learning Assignments:
+- **Tutorial**: Scribma ["Build a AirBnB Experiences clone" Section](https://scrimba.com/learn/learnreact) (2 hours)
 
 - Learn about the React hook called `useState()`. Follow along with this [popular tutorial](https://www.youtube.com/watch?v=9xhKH43llhU), which is about 15 minutes long.
 

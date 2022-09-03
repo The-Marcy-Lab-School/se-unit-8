@@ -17,7 +17,7 @@
 
 
 ### Learning Assignments:
-- **Tutorial**: Scribma ["Build a AirBnB Experiences clone" Section](https://scrimba.com/learn/learnreact) (2 hours)
+- **Tutorial**: Scrimba ["Build a AirBnB Experiences clone" Section](https://scrimba.com/learn/learnreact) (2 hours)
 
 - Learn about the React hook called `useState()`. Follow along with this [popular tutorial](https://www.youtube.com/watch?v=9xhKH43llhU), which is about 15 minutes long.
 

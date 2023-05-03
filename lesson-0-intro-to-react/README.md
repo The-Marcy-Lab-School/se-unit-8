@@ -17,6 +17,7 @@
 + What is JSX?
 
 ### Learning Assignments:
+* [Quick Start with React](https://react.dev/learn)
 + **Tutorial**: Scribma ["Build a React info site" Section](https://scrimba.com/learn/learnreact) (2 hours)
 + **Documentation**: Review Official React Docs
   + [Add React to a Website](https://reactjs.org/docs/add-react-to-a-website.html)
